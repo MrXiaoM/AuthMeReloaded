@@ -55,7 +55,7 @@ You can also create your own translation file and, if you want, you can share it
   <li><strong>Fully compatible with Citizens2, CombatTag, CombatTagPlus!</strong></li>
   <li>Compatible with Minecraft mods like <strong>BuildCraft or RedstoneCraft</strong></li>
   <li>Restricted users (associate a username with an IP)</li>
-  <li>Protect player's inventory until correct authentication (requires ProtocolLib)</li>
+  <li>Protect player's inventory until correct authentication (requires PacketEvents)</li>
   <li>Saves the quit location of the player</li>
   <li>Automatic database backup</li>
   <li>Available languages: <a href="https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md">translations</a></li>
@@ -132,7 +132,7 @@ You can also create your own translation file and, if you want, you can share it
 >  - `AuthMe-*-Spigot-1.21.jar` (Spigot 1.20.x – 1.21.x)
 >  - `AuthMe-*-Paper.jar` (Paper 1.21+)
 >  - `AuthMe-*-Folia.jar` (Folia 1.21+)
->- ProtocolLib (optional, required by some features)
+>- PacketEvents (optional, required by some features)
 
 ## Credits
 

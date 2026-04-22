@@ -1,5 +1,5 @@
 <!-- AUTO-GENERATED FILE! Do not edit this directly -->
-<!-- File auto-generated on Wed Apr 22 23:25:58 CEST 2026. See authme-tools/src/test/java/tools/docs/config/config.tpl.md -->
+<!-- File auto-generated on Thu Apr 23 01:17:30 CEST 2026. See authme-tools/src/test/java/tools/docs/config/config.tpl.md -->
 
 ## AuthMe Configuration
 The first time you run AuthMe it will create a config.yml file in the plugins/AuthMe folder,
@@ -222,9 +222,9 @@ settings:
         # How far can unregistered players walk?
         # Set to 0 for unlimited radius
         allowedMovementRadius: 100
-        # Should we protect the player inventory before logging in? Requires ProtocolLib.
+        # Should we protect the player inventory before logging in? Requires PacketEvents.
         ProtectInventoryBeforeLogIn: true
-        # Should we deny the tabcomplete feature before logging in? Requires ProtocolLib.
+        # Should we deny the tabcomplete feature before logging in? Requires PacketEvents.
         DenyTabCompleteBeforeLogin: false
         # Should we display all other accounts from a player when he joins?
         # permission: /authme.admin.accounts
@@ -602,4 +602,4 @@ To change settings on a running server, save your changes to config.yml and use
 
 ---
 
-This page was automatically generated on the [AuthMe/AuthMeReloaded repository](https://github.com/AuthMe/AuthMeReloaded/tree/master/docs/) on Wed Apr 22 23:25:58 CEST 2026
+This page was automatically generated on the [AuthMe/AuthMeReloaded repository](https://github.com/AuthMe/AuthMeReloaded/tree/master/docs/) on Thu Apr 23 01:17:30 CEST 2026

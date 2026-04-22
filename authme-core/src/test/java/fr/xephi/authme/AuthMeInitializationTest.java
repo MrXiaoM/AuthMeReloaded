@@ -15,8 +15,10 @@ import fr.xephi.authme.datasource.DataSource;
 import fr.xephi.authme.initialization.DataFolder;
 import fr.xephi.authme.listener.BlockListener;
 import fr.xephi.authme.platform.ChatAdapter;
+import fr.xephi.authme.platform.CommandRegistrationAdapter;
 import fr.xephi.authme.platform.DialogAdapter;
 import fr.xephi.authme.platform.EventRegistrationAdapter;
+import fr.xephi.authme.platform.PacketInterceptionAdapter;
 import fr.xephi.authme.platform.PlatformAdapter;
 import fr.xephi.authme.platform.SchedulingAdapter;
 import fr.xephi.authme.platform.TeleportAdapter;
@@ -122,6 +124,8 @@ public class AuthMeInitializationTest {
         injector.register(EventRegistrationAdapter.class, platformAdapter);
         injector.register(SchedulingAdapter.class, platformAdapter);
         injector.register(DialogAdapter.class, platformAdapter);
+        injector.register(CommandRegistrationAdapter.class, platformAdapter);
+        injector.register(PacketInterceptionAdapter.class, platformAdapter);
 
         // when
         authMe.instantiateServices(injector);
